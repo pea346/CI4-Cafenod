@@ -9,7 +9,11 @@
       margin: 0;
       padding: 0;
       color: #fff;
-      background-color: #222;
+      background-color: #111; /* same dark theme */
+      background-image: url('/images/coffee_login.jpg'); /* use same background as login */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -17,34 +21,36 @@
     }
 
     .form-container {
-      background-color: #333;
+      background-color: rgba(129, 102, 67, 0.8); /* same translucent brown card */
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0px 2px 8px rgba(0,0,0,0.6);
-      width: 380px;
+      box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.6);
+      width: 350px;
       text-align: center;
     }
 
     h1 {
       font-size: 2rem;
-      color: #D2B48C;
+      color: #D2B48C; /* coffee gold */
       margin-bottom: 20px;
       text-transform: uppercase;
+      font-weight: bold;
     }
 
     label {
       display: block;
       margin: 10px 0 5px;
       text-align: left;
+      font-family: 'Pacifico', cursive;
     }
 
     input {
-      width: 100%;
+      width: 90%;
       padding: 10px;
       margin-bottom: 15px;
       border: none;
       border-radius: 5px;
-      background-color: #444;
+      background-color: #c19a6b;
       color: #fff;
     }
 
@@ -56,17 +62,20 @@
       width: 100%;
       padding: 12px;
       border: none;
-      border-radius: 5px;
+      border-radius: 8px;
       background-color: #D2B48C;
       color: #222;
       font-weight: bold;
       font-size: 1rem;
       cursor: pointer;
       transition: 0.3s;
+      box-shadow: 0px 2px 6px rgba(255, 255, 255, 1);
     }
 
     button:hover {
-      background-color: #c2a06f;
+      background-color: #c19a6b;
+      color: white;
+      box-shadow: 0px 4px 10px rgba(134, 106, 69, 0.6);
     }
   </style>
 </head>
