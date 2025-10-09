@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Mood Board - Cafenod</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+        
 
         body {
             font-family: 'Montserrat', sans-serif;
