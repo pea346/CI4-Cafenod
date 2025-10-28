@@ -132,6 +132,8 @@
 </head>
 <body>
 
+<?= view('components/header') ?>
+
 <section class="roadmap">
     <h1>Project Road Map</h1>
     <ul>
