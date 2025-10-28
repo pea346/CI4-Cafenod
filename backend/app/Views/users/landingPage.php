@@ -48,6 +48,7 @@ nav a {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -88,7 +89,7 @@ nav a {
     padding: 40px;
     
 }
-.card {
+.card1 {
     background-color: rgba(180, 180, 180, 0.1);
     border-radius: 8px;
     padding: 20px;
@@ -97,16 +98,16 @@ nav a {
     box-shadow: 0px 2px 6px rgba(212, 231, 177, 0.4);
     font-family: 'Montserrat', sans-serif;
 }
-.card img {
+.card1 img {
     max-width: 100%;
     border-radius: 6px;
     margin-bottom: 15px;
 }
-.card h3 {
+.card1 h3 {
     margin: 10px 0;
     font-family: 'Pacifico', cursive;
 }
-.card p {
+.card1 p {
     font-size: 0.9em;
     color: #ccc;
 }
@@ -150,6 +151,67 @@ nav a {
     box-shadow: 0px 4px 10px rgba(210, 180, 140, 0.6);
 }
 
+/* Cards */
+.cards2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    
+}
+.card2 {
+    background-color: rgba(180, 180, 180, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    box-shadow: 0px 2px 6px rgba(212, 231, 177, 0.4);
+    font-family: 'Montserrat', sans-serif;
+}
+.card2 img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.card2 h3 {
+    margin: 10px 0;
+    font-family: 'Pacifico', cursive;
+}
+.card2 p {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+/* Cards */
+.cards3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    
+}
+.card3 {
+    background-color: rgba(180, 180, 180, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    box-shadow: 0px 2px 6px rgba(212, 231, 177, 0.4);
+    font-family: 'Montserrat', sans-serif;
+}
+.card3 img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.card3 h3 {
+    margin: 10px 0;
+    font-family: 'Pacifico', cursive;
+}
+.card3 p {
+    font-size: 0.9em;
+    color: #ccc;
+}
 
 </style>
 
@@ -169,9 +231,11 @@ nav a {
 
 <!-- 3 Cards -->
 <div class="cards">
-<?= view('components/card') ?>
-<?= view('components/card') ?>
-<?= view('components/card') ?>
+<?= view('components/cards/card2') ?>
+<?= view('components/cards/card1') ?>
+<?= view('components/cards/card3') ?>
+
+
 </div>
 
 <!-- CTA Section -->
@@ -179,7 +243,6 @@ nav a {
 
 
 <!-- Buttons Demo -->
-<div style="text-align:center; padding:30px;">
 
 </div>
 
