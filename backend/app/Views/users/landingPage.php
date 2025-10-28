@@ -243,8 +243,7 @@ nav a {
 
 
 <!-- Buttons Demo -->
-<div style="text-align:center; padding:30px;">
-<?= view('components/buttons') ?>
+
 </div>
 
 
